@@ -25,6 +25,11 @@ router.post('/', (req, res) => {
     res.json(database);
 })
 
+router.delete('/:id', (req, res) => {
+    const thisObject = database.findIndex(x => x.id === req.params.id)
+    database.splice(thisObject, 1);
+    res.json(database);
+})
 
 
 
