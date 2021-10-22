@@ -35,7 +35,7 @@
 
 ## Installation
 
-To install your dependencies, you will be using the following command:
+IF you are running this on localhost as opposed to heroku, to install your dependencies you will be using the following command:
 
     npm install
 
@@ -46,9 +46,8 @@ To install your dependencies, you will be using the following command:
 
 ## Usage
             
-Link to deployed application: (insert link later)
+Link to deployed application: https://note-taker-123123123.herokuapp.com/
         
-You must change directories to 'Develop' before installing the dependencies and using the application.
         
 ---
         
